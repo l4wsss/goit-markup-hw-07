@@ -364,6 +364,22 @@ address {
     text-transform: none;
     color: #434455;
   }
+
+  .nav-list {
+    position: relative;
+  }
+
+  .underline::after {
+    position: absolute;
+    display: block;
+    content: '';
+    background-color: var(--pressed-state);
+    height: 4px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border-radius: 2px;
+  }
 }
 
 /* Desktop */
